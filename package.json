@@ -1,0 +1,29 @@
+{
+  "name": "eco_practica14",
+  "version": "1.0.0",
+  "description": "Practica semana 14 eco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "visualize-main": "webpack --analyze"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erika2201/ECO_Practica14.git"
+  },
+  "author": "Erika Papamija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erika2201/ECO_Practica14/issues"
+  },
+  "homepage": "https://github.com/erika2201/ECO_Practica14#readme",
+  "dependencies": {
+    "firebase": "^9.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
